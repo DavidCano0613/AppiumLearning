@@ -12,7 +12,7 @@ public class BaseAndroidRealDeviceCapabilities {
 //      Required capabilities
         caps.setCapability("platformName", "Android"); //Specifies the operating system. Example: "Android".
         caps.setCapability("appium:platformVersion", "13"); //Android version on the device.
-        caps.setCapability("appium:app", "/Users/juandavidpaniaguacano/src/appium_learning/src/main/java/resources/ApiDemos-debug.apk"); //Path or URL of the APK file of the application to test.
+        caps.setCapability("appium:app", "C:\\Users\\David\\Downloads\\personal\\personal\\appium_learning\\src\\main\\java\\resources\\ApiDemos-debug.apk"); //Path or URL of the APK file of the application to test.
         caps.setCapability("appium:automationName", "uiautomator2"); // Defines the automation engine. For Android, UiAutomator2 or Espresso are commonly used. Example: "UiAutomator2".
 
 //      Optional capabilities
